@@ -1,0 +1,8 @@
+Format: http://dep.debian.net/deps/dep5
+Upstream-Name: sh
+Upstream-Contact: Andrew Moffat <andrew.robert.moffat@gmail.com>
+Source: <https://github.com/amoffat/sh.git>
+
+Files: *
+Copyright: Andrew Moffat <andrew.robert.moffat@gmail.com>
+License: MIT

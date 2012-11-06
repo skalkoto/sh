@@ -1,0 +1,19 @@
+Source: python-sh
+Section: python
+Priority: extra
+Maintainer: Nikos Skalkotos <skalkoto@grnet.gr>
+Build-Depends: debhelper (>= 8.0.0), python, python-setuptools
+Standards-Version: 3.9.3
+Homepage: https://github.com/amoffat/sh.git
+Vcs-Browser: https://github.com/amoffat/sh.git
+Vcs-Git: https://github.com/amoffat/sh.git
+X-Python-Version: >= 2.6
+
+Package: python-sh
+Architecture: all
+Depends: ${shlibs:Depends},
+ ${misc:Depends},
+ ${python:Depends},
+Provides: ${python:Provides}
+Description: Python subprocess interface
+
