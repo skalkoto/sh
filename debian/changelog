@@ -1,3 +1,9 @@
+python-sh (1.07-0ubuntu1) precise; urgency=low
+
+  * New upstream version
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Fri, 25 Jan 2013 14:29:52 +0200
+
 python-sh (1.05-1ubuntu2) precise; urgency=low
 
   * Fix copyright file
