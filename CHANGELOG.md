@@ -1,5 +1,41 @@
 # Changelog
 
+## 1.07 - 11/21/12
+
+*   Bugfix for PyDev when `locale.getpreferredencoding()` is empty.
+
+*   Fixes for IPython3 that involve `sh.<tab>` and `sh?`
+
+*   Added `_tee` special keyword argument to force stdout/stderr to store
+	internally and make available for piping data that is being redirected.
+
+*   Added `_decode_errors` to be passed to all stdout/stderr decoding of a
+    process.
+
+*   Added `_no_out`, `_no_err`, and `_no_pipe` special keyword arguments.  These
+	are used for long-running processes with lots of output.
+	
+*   Changed custom loggers that were created for each process to fixed loggers,
+    so there are no longer logger references laying around in the logging
+    module after the process ends and it garbage collected.
+	
+
+## 1.06 - 11/10/12
+
+*   Removed old undocumented cruft of ARG1..ARGN and ARGV.
+
+*   Bugfix where `logging_enabled` could not be set from the importing module.
+
+*   Disabled garbage collection before fork to prevent garbage collection in
+	child process.
+	
+*   Major bugfix where cyclical references were preventing process objects
+	(and their associated stdout/stderr buffers) from being garbage collected.
+	
+*   Bugfix in RunningCommand and OProc loggers, which could get really huge if
+    a command was called that had a large number of arguments.
+
+
 ## 1.05 - 10/20/12
 
 *   Changing status from alpha to beta.
