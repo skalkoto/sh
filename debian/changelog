@@ -1,3 +1,9 @@
+python-sh (1.08-0ubuntu1) precise; urgency=low
+
+  * New upstream version
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Fri, 26 Apr 2013 14:09:36 +0300
+
 python-sh (1.07-0ubuntu1) precise; urgency=low
 
   * New upstream version
