@@ -1,3 +1,9 @@
+python-sh (1.08-1wheezy) wheezy; urgency=low
+
+  * Repack for wheezy
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Wed, 05 Jun 2013 10:57:52 +0300
+
 python-sh (1.08-1) stable; urgency=low
 
   * New upstream version
